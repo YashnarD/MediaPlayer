@@ -105,8 +105,8 @@ class MainActivity : AppCompatActivity(), MediaPlayer.OnPreparedListener {
         }
     }
 
-    override fun onPrepared(p0: MediaPlayer?) {
-        p0?.start()
+    override fun onPrepared(mp: MediaPlayer?) {
+        mp?.start()
     }
 
     override fun onDestroy() {
